@@ -1,0 +1,33 @@
+footer {
+    background-color: black;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ft-left {
+    flex: 1;
+}
+
+.ft-right {
+    flex: 1;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+footer h2 {
+    margin: 1rem;
+}
+
+footer p {
+    margin: 1rem;
+}
+footer i {
+    margin: 1rem;
+}
+
+

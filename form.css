@@ -1,0 +1,40 @@
+.form {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 5px 10px 8px 5px #888888;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    color: rgb(97, 97, 97);
+    margin: .5rem 0 .5rem .9rem;
+    font-size: 1.2rem;
+}
+input, textarea {
+    font-size: 1rem;
+    display: block;
+    width: 90%;
+    background-color: rgb(192, 192, 192);
+    border: none;
+    padding: .7rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.submit-div {
+    display: flex;
+}
+.submit {
+background-color: #facf0f;
+border: none;
+padding: 1rem 5rem;
+border-radius: 10px;
+font-size: 1rem;
+font-weight: 600;
+box-shadow: 20px 20px 100px 1px rgb(158, 155, 155);
+cursor: pointer;
+outline: inherit;
+}
+

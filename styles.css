@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+* {
+    margin: 0 auto;
+}
+
+html {
+    font-family: 'Source Sans Pro',
+        sans-serif;
+    background-color: white;
+    font-size: 20px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 5rem;
+    box-shadow: 20px 20px 100px 1px rgb(158, 155, 155);
+}
+
+.name-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.nav-list-container {
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+    list-style: none;
+}
+
+.nav-list-container a {
+    text-decoration: none;
+    color: black;
+    transition: color 300ms ease-out;
+}
+
+.nav-list-container li {
+    margin: 3rem;
+    font-weight: 600;
+}
+
+.nav-list-container a:hover {
+    color: #facf0f;
+}
+
+
+.my-face {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 2rem;
+}
+
+.contact{
+    background-color: #facf0f;
+    padding: .6rem 1rem;
+    border-radius: 10px;
+    transition: color 300ms ease-out;
+}
+
+.nav-list-container .contact:hover{
+    color: white;
+   
+}
+
+.nav-list-container .contact:active {
+    padding: .7rem 1.1rem;
+    color: black;
+}
+
+
+.hero-section {
+
+    background-color: whitesmoke;
+    height: 30rem;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name-container h3 {
+    margin: 0rem;
+}
+
+h1 {
+    margin: 3rem;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.info {
+    width: 55%;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about-me p {
+    width: 50%;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.button {
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 4px;
+    background-color: #facf0f;
+    padding: 1rem;
+    width: 9rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 20px 20px 100px 1px rgb(158, 155, 155);
+}
+
+.button:active {
+box-shadow: none;
+}
+
+.about-me {
+    background-color: white;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-underline {
+    background-color: #facf0f;
+    height: .4rem;
+    width: 2rem;
+    border-radius: 10px;
+    margin: 1rem auto;
+}
+
+.subtitle {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.get-to-know-section {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.get-to-know-me {
+    flex: 1;
+}
+
+.get-to-know-me h3 {
+    font-size: 2rem;
+}
+
+.p {
+    margin: 1rem 0;
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
+}
+
+.skills {
+    flex: 1;
+
+}
+
+.skills h3 {
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.skills li {
+    padding: 1rem;
+    margin: .5rem;
+    background-color: rgb(196, 202, 207);
+    border-radius: 10px;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-left {
+    flex: 1;
+    margin: 2rem;
+    margin-right: 10rem;
+}
+
+.card-right {
+    flex: 1;
+}
+
+
+.contact-section {
+    background-color: whitesmoke;
+    height: 1200px;
+}
+
+.contact-section h2 {
+    font-size: 3rem;
+}
