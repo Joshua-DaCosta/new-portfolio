@@ -58,6 +58,9 @@ nav {
     width: 50px;
     border-radius: 50%;
     margin: 0 2rem;
+    object-fit: cover;
+    object-position: 10% 10%;
+    
 }
 
 .contact{
